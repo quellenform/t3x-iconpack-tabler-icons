@@ -1,0 +1,23 @@
+iconpack:
+  title: "Tabler Icons"
+  key: "tabler"
+  version: 3.31.0
+  url: "https://tabler.io/icons"
+
+  renderTypes:
+
+    _default:
+      prefix: "ti-"
+
+    webfont:
+      css: "EXT:iconpack_tablericons/Resources/Public/Vendor/tabler-icons-3.31.0/css/tabler-icons.min.css"
+      attributes:
+        class: "ti"
+
+    svg:
+      source: "EXT:iconpack_tablericons/Resources/Public/Vendor/tabler-icons-3.31.0/svgs/"
+
+    svgInline:
+      source: "EXT:iconpack_tablericons/Resources/Public/Vendor/tabler-icons-3.31.0/svgs/"
+
+  icons: "EXT:iconpack_tablericons/Resources/Public/Vendor/tabler-icons-3.31.0/metadata/icons.yml"
